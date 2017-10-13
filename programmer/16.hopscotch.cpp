@@ -2,6 +2,9 @@
 #include<vector>
 using namespace std;
 
+/*
+각 행의 가장 크면서 전 행과 같은 열을 밟지않는 경우를 생각해서 작성했지만 틀렸다
+--------------------------------------------------------------------------------
 int hopscotch(vector<vector<int> > board)
 {
 	// 함수를 완성하세요.
@@ -10,19 +13,28 @@ int hopscotch(vector<vector<int> > board)
 
 	for (int i = 0; i < board.size(); i++) {
 		pmax_i = max_i;
-		max=0, max_i = 0; //초기화
+		max = 0, max_i = 0; //초기화
 		for (int j = 0; j < board[i].size(); j++) {
-			max_i++;
 			if (max < board[i][j]) {
+				max_i = j;
 				if (pmax_i == max_i)
 					continue;
 				max = board[i][j];
 			}
 		}
-		answer += max;
+		answer += max; cout << max << endl;
 	}
 
 	return answer;
+}
+================================================================================
+*/
+
+int hopscotch(vector<vector<int> > board)
+{
+	int answer = 0;
+
+	return 0;
 }
 
 int main()
