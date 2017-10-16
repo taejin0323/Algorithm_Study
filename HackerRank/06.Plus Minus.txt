@@ -1,0 +1,12 @@
+
+
+Git의 기본적인 원리에 대해 조금 공부했다
+git의 중복 데이터를 효율적으로 저장하는 원리인 SHA1 hash에 대해서 배우고
+git status가 동작하는 원리와 
+working directory - index/staging area/cache - repository의 관계를 조금이나마
+이해하게 되었다
+(Google의 이미지 검색으로 개념을 정리하는데 도움을 받을 수 있음을 배웠다)
+
+문제>
+
+https://www.hackerrank.com/challenges/plus-minus
