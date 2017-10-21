@@ -1,0 +1,7 @@
+문제 >
+
+https://www.hackerrank.com/challenges/divisible-sum-pairs
+
+다른 사람의 풀이 >
+
+https://www.hackerrank.com/challenges/divisible-sum-pairs/forum
