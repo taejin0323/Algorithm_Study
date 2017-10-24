@@ -1,0 +1,5 @@
+Hashset에 대한 추가 공부 필요
+
+문제 >
+
+https://www.hackerrank.com/challenges/sock-merchant
