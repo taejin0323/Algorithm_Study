@@ -1,0 +1,6 @@
+다른 파트는 기본 50문제는 넘는 것 같아서...
+제일 만만해 보이는 정렬 파트부터 일단...
+
+문제 >
+
+ https://www.hackerrank.com/challenges/big-sorting
