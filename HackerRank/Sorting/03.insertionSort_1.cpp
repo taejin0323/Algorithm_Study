@@ -5,12 +5,19 @@ using namespace std;
 
 void insertionSort(vector <int> ar) {
 	int rightmost = ar.back();
-	for (int i = ar.end()-2; i > 0; i--) {
-		if (ar[i] > rightmost) {
-			ar[i + 1] = ar[i];
+	for (int i = ar.size()-1; i >= 0; i--) {
+		if (ar[i-1] > rightmost) {
+			ar[i] = ar[i-1];
+			for (int j = 0; j < ar.size(); j++) {
+				cout << ar[j] << ' ';
+			}
 		}
-		for (int j = 0; j < ar.size(); j++) {
-			cout << ar[j] << ' ';
+		else {
+			ar[i] = rightmost;
+			for (int j = 0; j < ar.size(); j++) {
+				cout << ar[j] << ' ';
+			}
+			break;
 		}
 		cout << endl;
 	}
