@@ -1,0 +1,5 @@
+Discussions에 사람들이 좋은 문제니 아니니 다투는거 같다
+
+문제 >
+
+https://www.hackerrank.com/challenges/insertionsort1
