@@ -1,3 +1,6 @@
+삽입정렬 참고 >
+https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif
+
 문제 >
 
 https://www.hackerrank.com/challenges/insertionsort2
